@@ -700,9 +700,10 @@ textarea {
   min-width: 169px;
   min-height: 56px;
   padding: 16px 32px;
+  margin: 0 auto;
 }
 
-.submit-btn-wrap {
+/* .submit-btn-wrap {
   display: flex;
   justify-content: center;
-}
+} */
