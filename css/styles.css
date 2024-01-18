@@ -544,12 +544,16 @@ textarea {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .subscribe-input-and-btn {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 24px;
 }

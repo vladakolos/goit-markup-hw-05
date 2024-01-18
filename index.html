@@ -398,10 +398,12 @@
                 </ul>
             </div>
             <div class="subscribe">
-                <p class="subscribe-title">Subscribe</p>
+
                 <div class="subscribe-input-and-btn">
                     <form class="subscribe-form">
-                        <input class="subscribe-input" type="email" name="subscribe-email" placeholder="E-mail">
+                        <label class="subscribe-title" for="subscribe-input">Subscribe</label>
+                        <input class="subscribe-input" type="email" id="subscribe-input" name="subscribe-email"
+                            placeholder="E-mail">
                     </form>
                     <button class="submit-btn" type="submit"><span class="subscr-btn-text">Subscribe</span> <svg
                             class="subscr-btn-icon" width="24" height="24">
@@ -410,7 +412,7 @@
                 </div>
             </div>
         </div>
-        <div class="backdrop">
+        <div class="backdrop is-open">
             <div class="modal">
                 <button class="modal-close-btn">
                     <svg class="modal-btn-icon" width="8" height="8">
