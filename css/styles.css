@@ -598,7 +598,6 @@ textarea {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  /* gap: 16px; */
   border-radius: 4px;
   background-color: #4d5ae5;
   border: 0;
@@ -741,6 +740,10 @@ textarea {
 }
 
 .class-textarea {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 120px;
   resize: none;
@@ -840,7 +843,7 @@ textarea {
 }
 
 .policy-checkbox:checked + .label-policy .checkbox-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .policy-checkbox:checked + .label-policy .checkbox-custom {
