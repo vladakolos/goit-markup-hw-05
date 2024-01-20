@@ -849,6 +849,7 @@ textarea {
 .policy-checkbox:checked + .label-policy .checkbox-custom {
   border: none;
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .modal-btn-submit {
