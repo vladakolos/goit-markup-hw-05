@@ -558,6 +558,9 @@ textarea {
 }
 
 .subscribe-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   display: inline-block;
   outline: none;
   background-color: transparent;
@@ -595,7 +598,7 @@ textarea {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
   border-radius: 4px;
   background-color: #4d5ae5;
   border: 0;
@@ -614,6 +617,7 @@ textarea {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 .backdrop {
